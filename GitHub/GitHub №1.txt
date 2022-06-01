@@ -1,0 +1,284 @@
+Для выполнения задания у вас должен быть установлен для Windows - GitBash.
+Создан аккаунт в GitHub
+
+Все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
+
+
+Как отправить ДЗ на проверку.
+ 1. Создайте текстоовый файл как в первом ДЗ по Terminal.
+ 2. Сценарий перенесите в этот файл.
+ 3. На против каждого действия - напишите команду в GitBash
+
+Файл со сценарием и ссылку на свой гит хаб отправляйте менторам на проверку.
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON. в гит хабе Нажимаем на New repository -Добавляем Название -ставим галочку Public- ставим галочку Add a README file - нажимаем create repository
+
+ 5. Клонировать репозиторий JSON на локальный компьютер:     git clone https://github.com/Chembeleeva/JSON.git
+ 6. Внутри локального JSON создать файл “new.json":          1. cd JSON 2. touch new.json
+ 7. Добавить файл под гит:                                   git add new.json
+
+ 8. Закоммитить файл:                                        git commit -m "test"
+
+ 9. Отправить файл на внешний GitHub репозиторий:            git push
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+ 
+ vim new.json
+нажать ! 
+{
+
+      "FIO" : "Vasileva Elena Alekseevna" ,
+      "age" : "32" ,
+      "number of pets" : "1",
+      "salary" : "1500"
+}
+нажать Esc :wq
+
+11. Отправить изменения на внешний репозиторий. 1. git add new.json 2.  git commit -m "new values" 3. git push
+
+ 12. Создать файл preferences.json: touch preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+
+ vim preferences.json
+нажать !
+{
+"favorite movie" : "Pretty Woman",
+"favorite TV seriel" : "La casa de papel",
+"favorite season" : "summer",
+"country you want to visit" : "Thailand"
+}
+нажать Esc :wq
+
+
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+touch sklls.json
+
+vim sklls.json
+нажать !
+{
+    "skil_1": "GitBash",
+    "skil_2": "GIT",
+    "skil_3": "GitHub",
+    "skil_4": "Postman",
+    "skil_5": "SQL",
+    "skil_6": "VPN",
+    "skil_7": "Charles",
+    "skil_8": "Fiddler",
+    "skil_9": "Android_Studio",
+    "skil_10": "XCode",
+    "skil_11": "QA_Theory",
+    "skil_12": "Jmeter",
+    "skil_13": "Python"
+}
+нажать Esc :wq
+
+
+ 15. Отправить сразу 2 файла на внешний репозиторий. 
+git add .
+git commit -am "new file my favorite,skil"
+git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+ Заходим в репозиторий Json  нажимаем Add file - Creaty new fale, добавляем название , добавляем комментарий, нажимаем commit new file
+
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+заходим в файл bug_report.json -edit this file
+
+ {
+    "Summary": "Test_QA",
+    "Project": "GIT_GitHub",
+    "Component": "Test",
+    "Author": "Сhembeleeva",
+    "Version": "V1",
+    "Severity": "S1",
+    "Priority": "P3_Low",
+    "Steps_to_Reproduce": "Test",
+    "Actual_Result": "Test" ,
+    "Expected_Result": "Test",
+    "Additional_information":"Test"
+}
+
+Добавляем комментарий- new bug report - нажимаем Commit changes
+
+ 20. Синхронизировать внешний и локальный репозиторий JSON git pull
+
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML. Нажимаем на New repository -Добавляем Название -ставим галочку Public- ставим галочку Add a README file - нажимаем create repository
+ 22. Клонировать репозиторий XML на локальный компьютер. git clone https://github.com/Chembeleeva/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.    1. cd XML 2. touch new.xml
+
+ 24. Добавить файл под гит:    git add new.xml
+
+ 25. Закоммитить файл:   git commit -m "new file"
+
+ 26. Отправить файл на внешний GitHub репозиторий:  git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+  vim new.xml
+нажать !
+<xml>
+
+    <FIO>"Vasileva Elena Alekseevna"</FIO>
+    <age>"32"</age>
+    <number of pets>"1"</number of pets>
+    <salary>"1500"</salary>
+
+
+нажать Esc :wq
+
+
+
+28. Отправить изменения на внешний репозиторий.  1. git add new.xml 2.  git commit -m "new values" 3. git push
+
+ 29. Создать файл preferences.xml:    touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+ vim preferences.xml
+нажать !
+<xml>
+        <favorite movie>"Pretty Woman"</favorite movie>
+        <favorite TV seriel>"La casa de papel"</favorite movie>
+        <favorite season>"summer"</favorite season>
+        <country you want to visit>"Thailand"</country you want to visit>
+нажать Esc :wq
+
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+touch sklls.xml
+ vim sklls.xml
+нажать !
+<xml>
+
+        <skil_1>"GitBash"</skil_1>
+        <skil_2>"GIT"</skil_2>
+        <skil_3>GitHub"</skil_3>
+        <skil_4>"Postman"</skil_4>
+        <skil_5>"SQL"</skil_5>
+        <skil_6>"VPN"</skil_6>
+        <skil_7>"Charles"</skil_7>
+        <skil_8>"Fiddler"</skil_8>
+        <skil_9>"Android_Studio"</skil_9>
+        <skil_10>"XCode"</skil_10>
+        <skil_11>"QA_Theory"</skil_11>
+        <skil_12>"Jmeter"</skil_12>
+        <skil_13>"Python"</skil_13>
+нажать Esc :wq
+
+ 32. Сделать коммит в одну строку.
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+ git add .
+ git commit -am "new files"
+ git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Заходим в репозиторий XML  нажимаем Add file - Creaty new file, добавляем название , добавляем комментарий, нажимаем commit new file
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+заходим в файл bug_report.xml -edit this file
+
+<xml>
+  <Summary>"Test_QA"</Summary>
+  <Project>"GIT_GitHub"</Project>
+  <Component>"Test"</Component>
+  <Author>"Сhembeleeva"</Author>
+  <Version>"V1"</Version>
+  <Severity>"S1"</Severity>
+  <Priority>"P3_Low"</Priority>
+  <Steps_to_Reproduce>"Test"</Steps_to_Reproduce>
+  <Actual_Result>"Test"</Actual_Result>
+  <Expected_Result>"Test"</Expected_Result>
+  <Additional_information>"Test"</Additional_information>
+
+Добавляем комментарий- new bug report - нажимаем Commit changes
+
+ 38. Синхронизировать внешний и локальный репозиторий XML:  git pull
+
+
+1. Создать внешний репозиторий c названием TXT.  Нажимаем на New repository -Добавляем Название -ставим галочку Public- ставим галочку Add a README file - нажимаем create repository
+ 2. Клонировать репозиторий TXT на локальный компьютер.git clone https://github.com/Chembeleeva/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”:   touch new.txt
+ 4. Добавить файл под гит:    git add new.txt
+
+ 5. Закоммитить файл:    git commit -m "new file"
+
+ 6. Отправить файл на внешний GitHub репозиторий : git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+vim new.txt
+нажать i
+ФИО Васильева Елена Алексеевна
+возраст 32
+количество домашних животных 1
+будущая желаемая зарплата 1500
+
+нажимаем Esc :wq
+
+ 8. Отправить изменения на внешний репозиторий. 1. git add new.txt 2.  git commit -m "new values" 3. git push
+
+ 9. Создать файл preferences.txt:  touch preferences.txt
+
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+vim preferences.txt
+нажать !
+favorite movie: Pretty Woman,
+favorite TV seriel: La casa de papel,
+favorite season: summer,
+country you want to visit :Thailand
+
+нажимаем Esc :wq
+11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+ cat > sklls.txt
+"GitBash",
+"GIT",
+"GitHub",
+"Postman",
+"SQL",
+"VPN",
+"Charles",
+"Fiddler",
+"Android_Studio",
+"XCode",
+"QA_Theory",
+"Jmeter",
+"Python"
+
+cntrl+ c
+
+ 12. Сделать коммит в одну строку:  git commit -am "new file"
+ 13. Отправить сразу 2 файла на внешний репозиторий.  git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt. 
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
+Заходим в репозиторий XML  нажимаем Add file - Creaty new file, добавляем название , добавляем комментарий, нажимаем commit new file
+
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+заходим в файл bug_report.txt -edit this file
+Summary
+Project
+Component
+Author
+Version
+Severity
+Priority
+Step to Reproduce
+Actual Result
+Expected Result
+Additional information
+
+Добавляем комментарий- new bug report - нажимаем Commit changes
+
+ 18. Синхронизировать внешний и локальный репозиторий TXT git pull
